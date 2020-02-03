@@ -36,14 +36,7 @@ void sieve(int n)
 
 int main()
 {
-    sieve(10000);
-
-    int num;
-    cin >> num;
-
-    for(int i = 0; i < num; i++)
-        cout << prime[i] << endl;
-    cout << endl;
+    sieve(1000000);
 
     return 0;
 }
