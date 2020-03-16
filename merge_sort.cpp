@@ -18,7 +18,7 @@ void merge_sort(int st, int nd)
     {
         if(i == mid+1)             tmp[k] = ara[j++];
         else if(j == nd+1)         tmp[k] = ara[i++];
-        else if(ara[i] < ara[j])   tmp[k] = ara[i++];
+        else if(ara[i] <= ara[j])   tmp[k] = ara[i++];
         else                       tmp[k] = ara[j++];
     }
 
