@@ -61,7 +61,7 @@ int main()
 
         for(int i = 0; i < prime.size() && prime[i] <= n; i++)
         {
-            int freq = frequency_of_a_prime(n, prime[i]);
+            long long freq = frequency_of_a_prime(n, prime[i]);
 
             if(freq)
             {
